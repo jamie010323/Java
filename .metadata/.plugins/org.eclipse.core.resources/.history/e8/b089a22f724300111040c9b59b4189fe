@@ -1,0 +1,32 @@
+package sub2;
+
+
+public class Car {
+
+	// 속성(멤버변수)
+	private String brand;
+	private String color;
+	private int speed;
+	
+	// 생성자 ; 속성을 초기화하는 매서드
+	
+	public Car() {
+		
+	}
+
+	// 기능(멤버 메서드)
+	public void speedUp(int speed) {
+		//this: 클래스의 멤버변수를 참조하는 키워드
+		this.speed += speed;
+	}
+	public void speedDown(int speed) {
+		this.speed -= speed;
+	}
+	
+	public void show() {
+		System.out.println("차량명 : " + this.brand);
+		System.out.println("차량명 : " + this.color);
+		System.out.println("차량명 : " + this.speed);
+		System.out.println();
+	}
+}

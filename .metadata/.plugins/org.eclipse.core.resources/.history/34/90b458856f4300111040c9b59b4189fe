@@ -1,0 +1,34 @@
+package sub1;
+
+public class Member {
+	// 속성(필드)		
+	String name;
+	int age;
+	boolean isActive;
+	
+	public void activate() {}
+	
+	public void deactivate() {}
+	
+	public void isAdult() {}
+	
+	public void show() {}
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

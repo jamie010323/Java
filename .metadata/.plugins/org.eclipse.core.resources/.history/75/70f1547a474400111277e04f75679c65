@@ -1,0 +1,14 @@
+package sub5;
+
+public class MethodOverloadTest {
+
+	public static void main(String[] args) {
+		
+		int rs1 = add(1);
+		int rs2 = add(1,2);
+		double rs3 = add(1.0, 2.1);
+		String rs4 = add("Hello", "World");
+		
+		
+	}
+}

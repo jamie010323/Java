@@ -1,0 +1,15 @@
+package sub4;
+
+public class LocalGlobalVariableTest {
+	
+	public static void main(String[] args) {
+		
+		// 메서드 호출
+		int total1 = sum(1,10);
+		int total2 = sum(1,100);
+		int total3 = sum(1,1000);
+		
+		
+	}
+
+}

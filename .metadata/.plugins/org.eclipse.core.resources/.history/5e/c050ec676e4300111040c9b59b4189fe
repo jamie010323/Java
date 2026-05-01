@@ -1,0 +1,45 @@
+package sub1;
+
+public class Member {
+	// 속성(필드)		
+	String name;
+	int age;
+	boolean isActive;
+	
+	public void activate() {		
+		this.isActive = true;
+	}
+	public void deactivate() {
+		isActive = false;
+	}
+	
+	public boolean isAcult() {
+		if(age >=20) {
+			return true;
+		} {
+			return false;
+		}
+	}
+}
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

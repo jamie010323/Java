@@ -1,0 +1,14 @@
+package sub3;
+
+public class MethodTypeTest {
+
+	public static void main(String[] args) {
+		
+		//메서드 호출
+		double y1 = type1(1.2);
+		double y2 = type1(2.2);
+		System.out.println("y1 : " + y1);
+		System.out.println("y2 : " + y2);
+		
+	}
+}

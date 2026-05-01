@@ -1,0 +1,14 @@
+package sub3;
+
+public class Car {
+	
+	// 속성 (멤버변수)
+	private String name;
+	private int speed;
+	public static int count; // 클래스변수(정적변수)
+	
+	// 생성자
+	
+	// 기능 (멤버메서드)
+
+}

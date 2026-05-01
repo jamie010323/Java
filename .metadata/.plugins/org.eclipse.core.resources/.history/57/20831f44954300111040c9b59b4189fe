@@ -1,0 +1,10 @@
+package ch02.sec01;
+
+public class VariableIntializationExample {
+	
+	public static void main(String[] args) {
+	
+		
+		
+	}
+}

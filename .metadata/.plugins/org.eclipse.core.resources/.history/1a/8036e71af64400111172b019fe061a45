@@ -1,0 +1,16 @@
+package sub2;
+
+public class Movie {
+	
+	private String title;
+	private String director;
+	private String rating;
+	
+	public Movie(String title, String director, String rationg) {
+		this.title = title;
+		this.director = director;
+		this.rating
+	}
+
+
+}

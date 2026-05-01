@@ -1,0 +1,15 @@
+package sub2;
+
+public class MethodTest {
+
+	public static void main(String[] args) {
+		
+	} 
+	
+	public static int f(int x) {
+		int y = 2 * x + 3;
+		return y;
+	}
+	
+	
+}

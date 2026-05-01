@@ -1,0 +1,63 @@
+package sub1;
+
+public class Member {
+		// 속성(필드)
+		
+		String name;
+		int age;
+		boolean isActive;
+		
+		public void activate() {
+			boolean ture;
+			this.isActive = ture;
+		}
+		public void deactivate() {
+			isActive = false;
+		}
+		
+		public Object isAcult() {
+			if(age >=20) {
+				Object ture;
+				return ture;
+			} {
+				return false;
+			}
+		}
+		
+		public void
+		
+}
+		// Member 객체 생성 및 초기화
+		Member kim = new Member();
+		kim.name = "김유신";
+		kim.age = 24;
+		kim.isActive = false;
+		
+		kim.activate();
+		
+		boolean isAdult = kim.isAdult();
+		
+		if(isAdult) {
+			kim.show();
+			sysout
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

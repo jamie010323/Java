@@ -1,0 +1,22 @@
+package sub1;
+
+public class Book {
+
+	String title;
+	String author;
+	int copies;
+	
+	public void borrowBook() {
+	
+		if(copies > 0) {
+			copies--;
+		}
+	
+	public void returnBook() {
+		copies++;
+	}
+	
+	
+	
+	}
+}
