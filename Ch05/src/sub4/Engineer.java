@@ -11,6 +11,7 @@ public class Engineer extends Person{
 	
 	public void work() {
 		System.out.println("제 이름은 [" +name+ "] 이고 나이는 [" +age+ "]세 입니다." );
+		System.out.println("저는 [" + field + "] 엔지니어 입니다.");
 	}
 
 }

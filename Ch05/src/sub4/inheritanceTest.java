@@ -31,4 +31,47 @@ public class inheritanceTest {
 		kb.sell(5, 150000);
 		kb.show();
 	}
+
+	/* 다음 요구사항을 만족하는 자바 프로그램을 작성하시오
+	 Person 클래스
+	 <속성>
+	 -name (String)
+	 -age (int)
+	 <생성자>
+	 -모든 인스턴스 변수 초기화
+	 <메소드>
+	 -work() : 기본적으로 "Person is working" 출력
+	 -introduce () : "제 이름은 [name] 이고 나이는 [age]세 입니다." 출력
+	 Person 클래스를 상속받아 Doctor, Engineer 클래스 정의
+	
+	 Doctor 클래스
+	 <속성>
+	 - specialty (String)
+	 <생성자>
+	 -모든 인스턴스 변수 초기화
+	 <메서드>
+	 -work()
+	 	"제 이름은 [name]이고 나이는 [age] 세 입니다." 출력
+	 	"저는 의사이며 전공은 [specialty] 입니다." 출력
+	 	
+	 Engineer 클래스
+	 <속성>
+	 -field (String)
+	 <생성자>
+	 -모든 인스턴스 변수 초기화
+	 <메서드>
+	 -work()
+	 	 "제 이름은 [name] 이고 나이는 [age]세 입니다." 출력
+	 	 
+	 * 
+	 */
+	
+	Doctor kim = new Doctor("김유신", 24, "소아과");
+	
+	
+	Engineer lee = new Engineer("이순신", 31, "SW개발");
+	
+	
 }
+
+
