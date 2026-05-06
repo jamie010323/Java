@@ -3,13 +3,22 @@ package sub5;
 public class Truck extends Car {
 	
 	private int capacity; // 적재용량
-
+	private final int MAX_SPEED = 160;
+	
 	public Truck(String name, String color, int speed, int capacity) {
 		super(name, color, speed);
 		this.capacity = capacity;
 		
 	}
-
+	
+	@Override
+	public void 
+	speedUP(int speed) {
+		if (speed > MAX_SPEED) {
+			this.speed = MAX_SPEED;
+		}
+		
+	}
 	public void load(int capacity) {
 		this.capacity += capacity;
 	}
@@ -19,5 +28,10 @@ public class Truck extends Car {
 		System.out.println("차량색 : " + color);
 		System.out.println("적재량 : " + this.capacity);
 		System.out.println("현재속도 : " + speed);
+	}
+
+	public void speedUp(int speed) {
+		// TODO Auto-generated method stub
+		
 	}
 }

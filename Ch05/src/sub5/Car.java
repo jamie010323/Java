@@ -26,5 +26,10 @@ public class Car {
 		System.out.println("차량색 : " + this.color);
 		System.out.println("현재속도 : " + this.speed);
 	}
+
+	public void speedUP(int speed) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
