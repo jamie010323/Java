@@ -2,7 +2,9 @@ package sub8;
 
 //인터페이스를 구현하는 구현 클래스
 public class RemoteLG implements RemoteControl {
-	
+	public static void main(String[] args) {
+		
+	}
 		
 	@Override
 	public void powerOn() {
