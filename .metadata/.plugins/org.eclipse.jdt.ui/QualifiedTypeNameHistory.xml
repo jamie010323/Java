@@ -3,5 +3,18 @@
     <fullyQualifiedTypeName name="java.nio.file.DirectoryIteratorException"/>
     <fullyQualifiedTypeName name="sub3.Calc"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthInternalFrameUI"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.nio.file.Path"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.Destination"/>
+    <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
+    <fullyQualifiedTypeName name="java.nio.file.StandardCopyOption"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
 </qualifiedTypeNameHistroy>
