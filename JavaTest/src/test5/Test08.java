@@ -3,15 +3,22 @@ package test5;
 import java.util.ArrayList;
 import java.util.List;
 
-0
+
 class Member {
 	String id;
 	String name;
 	int age;
 		
-	????
+	Member(String id, String name, int age){
+		this.id=id;
+		this.name=name;
+		this.age=age;
+	}
 				
 	@Override
+	public String toString() {
+		return id + ", " + name + ", " + age + ", ";
+	}
 		
 }
 	
@@ -22,13 +29,13 @@ public class Test08 {
 		Member m2 = new Member("a102", "김춘추", 21);
 		Member m3 = new Member("a103", "장보고", 33);
 		
-		???????? memberList = new ArrayList<>();
+		List<Member> memberList = new ArrayList<>();
 
 		memberList.add(m1);
 		memberList.add(m2);
 		memberList.add(m3);
 		
-		for( ??) {
+		for(Member m : memberList) {
 			System.out.println(m);
 		}
 	}

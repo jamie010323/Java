@@ -8,18 +8,19 @@ public class Test10 {
 
 	public static void main(String[] args) {
 
-		String path = "C:\\Users\\<계정명>\\Desktop\\Result.txt";
+		String path = "C:\\Users\\GGG\\Desktop\\Result.txt";
 		
 		try {
 			File file = new File(path);
 			FileWriter fw = new FileWriter(file);
 
 			for(int x=2 ; x<=9 ; x++) {
-				fw.
+				
+				fw.write(x + "단\n");
 				
 				for(int y=1 ; y<=9 ; y++) {
 					int z = x * y;
-					fw.
+					fw.write(x + " x " + y + " = " + z + "\n");
 				}
 			}
 
